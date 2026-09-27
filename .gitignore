@@ -1,0 +1,21 @@
+# Claude Code project instructions (local only)
+CLAUDE.md
+
+# Vendored sample codebases (no LICENSE attached — fetch via pip instead, see README/test_questions.md)
+sample_data/
+
+# Generated index artifacts (regenerate via Codebase Indexer page)
+*_vector_db/
+*_graph_db
+index_metadata.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# OS junk
+Thumbs.db
+desktop.ini
